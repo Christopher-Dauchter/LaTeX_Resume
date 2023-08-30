@@ -1,6 +1,5 @@
 %-------------------------
-% Resume ATS
-% Authors : Christopher Erickson
+% Authors :Christopher Erickson
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
@@ -135,9 +134,9 @@
       {NSF Undergraduate Researcher}{2023 -- Present}
       {Colorado State University - Branislav Notaros's Lab}{Fort Collins, CO}
       \resumeItemListStart
-        \resumeItem{Worked on various Uncertainty Quantification (UQ) programs in MATLAB and Python}
-        \resumeItem{Helped develop novel approaches to UQ in Computational Electromagnetics (CEM) }
-        \resumeItem{Managed a multi-person code repository for the research team}
+        \resumeItem{Worked on various Uncertainty Quantification (UQ) programs in MATLAB and Python.}
+        \resumeItem{Helped develop novel approaches to UQ in Computational Electromagnetics (CEM). }
+        \resumeItem{Managed a multi-person code repository for the research team.}
     \resumeItemListEnd
     \resumeSubheading
       {Consultant}{2015 -- Present}
@@ -246,7 +245,7 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: MATLAB, C, C++, C#, Java, JavaScript, HTML, Python, Bash Scripts, Lua, Visual Basic/Excel Programming Language, ASL} \\
+     \textbf{Languages}{: MATLAB, C, C++,, Java, JavaScript, HTML, Python, Bash Scripts, Lua, Visual Basic/Excel Programming Language, ASL} \\
      \textbf{Software}{: Solidworks, Onshape, Cadence Virtuoso, Intel Quartus, MultiSim, PrusaSlicer, Blender, Microsoft Suite, Adobe Creative Suite, Google Workspace Suite} \\
      \textbf{Operating Systems}{: Linux, Windows, MacOS}\\
      \textbf{Certifications}{: First Aid/CPR, Childcare Certification - Red Cross, Wilderness Emergency Response, Microsoft Excel Certified, Ultra and High Vacuum System Certification by Kurt J Lesker } \\
