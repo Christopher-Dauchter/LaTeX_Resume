@@ -1,0 +1,259 @@
+%-------------------------
+% Resume ATS
+% Authors : Christopher Erickson
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Christopher Erickson} \\ \vspace{1pt}
+    \normalsize \textbf{I am a true autodidact, self-driven learning is my life's passion}\\
+    \small 206-293-2551 $|$ \href{mailto:christopher.erickson97@gmail.com}{\underline{christopher.erickson97@gmail.com}} $|$ 
+    \href{https://autodidacticpantologist.org/}{\underline{autodidacticpantologist.org}} $|$
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Colorado State University}{Fort Collins, CO}
+      {Bachelor of Science - Electrical Engineering}{2017 -- Present}
+    \resumeSubheading
+      {University of Northern Colorado - Frontier of Science Institute (FSI)}{Greeley, CO}
+      {Undergraduate Research - Computer Science, Data Analysis, Geographic Information Systems (GIS)} {2016 -- 2017}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+      \resumeSubheading
+      {NSF Undergraduate Researcher}{2023 -- Present}
+      {Colorado State University - Branislav Notaros's Lab}{Fort Collins, CO}
+      \resumeItemListStart
+        \resumeItem{Worked on various Uncertainty Quantification (UQ) programs in MATLAB and Python}
+        \resumeItem{Helped develop novel approaches to UQ in Computational Electromagnetics (CEM) }
+        \resumeItem{Managed a multi-person code repository for the research team}
+    \resumeItemListEnd
+    \resumeSubheading
+      {Consultant}{2015 -- Present}
+      {Private Contractor}{Denver, CO}
+      \resumeItemListStart
+        \resumeItem{Using the Blender 3D modeling software, designed various models. Designed and rendered various animations (e.g. opening animations for YouTube Content Creators.}
+        \resumeItem{Have consulted on, as well as designed websites, using a wide variety of tools ranging from pure HTML, CSS, JavaScript; all the way up to high level editors like Carrd co, or WordPress.}
+        \resumeItem{Built logos and branding guides. Delivered Vector and Raster graphics, and custom animations. Built official internal and external facing documents. Such as surveys and fill-able medical records documents. Many of these documents have editable code to create a highly customized and editable end result.}
+     \resumeItem{Repaired electronics from 2000 to present, including: PlayStations, Tablets, Smartphones, Xboxs, Amplifiers etc. Many of these repairs involved SMD components and techniques.}
+        \resumeItem{Repaired over 200+  vintage (1920 – 2000) audio gear including : Amplifiers, DVD Players, CD Players, VCRS, Cassette Decks, Walkmans, Discmans, Turntables, Radios, and many more. Worked on external modifications as well, which were engineered and implemented.}
+               \resumeItem{Performed signal acquisition and analysis on EEG and EKG data, for Brain Computer/Machine interfaces.}
+              \resumeItem{Designed and prepared in house PCBs for a wide range of applications. Experienced in handling chemicals and lab safety.}
+               \resumeItem{Performed full failure analysis of materials and circuits, including stress testing of electrical components and structures.}
+      \resumeItemListEnd
+          \resumeSubheading
+      {Audio Technician}{2020 -- Present}
+      {Bizarre Bazaar}{Fort Collins, CO}
+      \resumeItemListStart
+        \resumeItem{Evaluate and repair various audio electronics, ranging from Turntables to Amplifiers.}
+            \resumeItem{Read and interpret service manuals and bulletins to maintain effective and safe operation of electronics.}
+             \resumeItem{Appraise broken and new electronics for buying and selling both in store and online.}
+        \resumeItem{Update and Upgrade various electronics to improve safety and functionality.} 
+    \resumeItemListEnd
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {}{}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+    \resumeSubheading
+      {Assistant Coordinator}{2018 -- 2021}
+      {Metropolitan State University of Denver - Honors Program}{Denver, CO}
+      \resumeItemListStart
+        \resumeItem{Managed day-to-day program operations. Including but not limited to, event coordination, marketing and ad hoc task.}
+            \resumeItem{Managed effective budget models for program. Analyzing financial information (e.g. revenues, expenditures and cash management)}
+             \resumeItem{Coordinated logistical matters for educational workshops, fulfilling reporting requirements, and providing intellectual leadership.}
+        \resumeItem{Assists Program Director in administrative tasks such as calendaring, correspondence and program representation.}
+        \resumeItem{Coordinated long-term projects to provide information and educational programs to students} 
+         \resumeItem{Wrote Standard Operating Procedures (SOP) for incoming students and employees.} 
+    \resumeItemListEnd
+    \resumeSubheading
+      {Supervisor}{2018 -- 2020}
+      {Denver Museum of Nature and Science}{Denver, CO}
+      \resumeItemListStart
+        \resumeItem{Virtual Reality Technician/Host - Interacting with 200+ guest a day}
+        \resumeItem{Support and mentor new employees/associates by training in all aspect of museum operation. (e.g. Front Desk, IMAX, Virtual Reality, Planetarium, Retail, Event Services.) }
+        \resumeItem{Overseeing staff of 20 direct reports.}
+      \resumeItemListEnd
+%\resumeSubheading
+%      {Supervisor}{2010 -- Present}
+%      {What-a-Squeeze}{Denver, CO}
+%      \resumeItemListStart
+%        \resumeItem{Served 500+ customers per event, upholding top-quality customer service.}
+%        \resumeItem{Managed a team of three over 10–12 hour days, in an efficient and effective manner}
+%      \resumeItemListEnd
+\resumeSubheading
+      {Supervisor}{2014 -- 2018}
+      {Sierra Trading Post}{Denver, CO}
+      \resumeItemListStart
+        \resumeItem{Maintained store organization/inventory, customer service (including order fulfillment)}
+        \resumeItem{Covered all aspects of retail operations including but not limited to: Front End, Gear, Footwear, Apparel, Back-end Operations, Order Fulfillment, Data Analyst}
+        \resumeItem{Oversaw team of 15 employees}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Petal Power, a Flower Inspired Solar Charging System} $|$ \emph{Colorado State University}}{2022}
+          \resumeItemListStart
+            \resumeItem{Designed and built a complex mechanical system for protecting solar panels during severe weather. }
+            \resumeItem{Integrated a custom solar system into the mechanical design to create a efficient synergy between them.}
+            \resumeItem{Was chosen as one of the top projects of the class, and was presented to multiple heads of industry.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Colorado CubeSat} $|$ \emph{Metropolitan State University of Denver}}{2021}
+          \resumeItemListStart
+            \resumeItem{Led a team of students to develop a telecommunications system for a 2-unit Cube Satellite }
+            \resumeItem{Designed and implemented a radio communication system that adhered to local and national government standards (AARL and FCC)}
+            \resumeItem{Designed a PCB layout and Materials list, and worked with PCB manufacturers to build a FCC approved circuit board. }
+          \resumeItemListEnd
+      \resumeProjectHeading
+                    {\textbf{Computer Vision Based Autonomous Driving Model} $|$ \emph{Metropolitan State University of Denver}}{2019}
+          \resumeItemListStart
+            \resumeItem{Designed and built a computer vision based autonomous vehicle to model real world benefits.}
+            \resumeItem{Integrated a new radio control scheme into an existing control system.}
+            \resumeItem{Presented research at the Western Regional Honors Conference.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Using Geospatial Analysis to Find Potential Windfarm Locations in Kansas} $|$ \emph{FSI at UNC}}{2017}
+          \resumeItemListStart
+            \resumeItem{Sourced geospatial data for use in a custom built ArchGIS algorithm to determine the optimal positioning of windfarms.}
+            \resumeItem{Researched local and national government regulations on windfarm constructions. I.E. FAA, FCC, USGS etc.}
+            \resumeItem{Presented research to Excel energy, the state of Kansas, and many other interested parties.}
+          \resumeItemListEnd
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: MATLAB, C, C++, C#, Java, JavaScript, HTML, Python, Bash Scripts, Lua, Visual Basic/Excel Programming Language, ASL} \\
+     \textbf{Software}{: Solidworks, Onshape, Cadence Virtuoso, Intel Quartus, MultiSim, PrusaSlicer, Blender, Microsoft Suite, Adobe Creative Suite, Google Workspace Suite} \\
+     \textbf{Operating Systems}{: Linux, Windows, MacOS}\\
+     \textbf{Certifications}{: First Aid/CPR, Childcare Certification - Red Cross, Wilderness Emergency Response, Microsoft Excel Certified, Ultra and High Vacuum System Certification by Kurt J Lesker } \\
+      \textbf{Physical Skills}{: Surface-Mounted Component Removal and Soldering, Through-Hole Removal and Soldering, Trained in Soldering to NASA standards, and many other skills; I am a quick learner}\\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
